@@ -1,0 +1,55 @@
+.header{
+    border: 1px solid black;
+    display: grid;
+    gap: 24px;
+    background: rgb(57, 57, 57);
+    color: white;
+    padding: 32px 0;
+}
+.topbar{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+}
+.topbar h1{
+    font-size: 3em;
+}
+.topbar span{
+    color: #FF4343;
+}
+.topbar input{
+    background-color: transparent;
+    border: 1px solid #FF4343;
+    padding: 8px 8px;
+    border-radius: 5px;
+    min-width: 250px;
+    accent-color: #FF4343;
+}
+.topbar input::placeholder{
+    color: white;
+}
+.topbar input[type="text"]{
+    color: white;
+}
+
+.bottombar{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 8px 0;
+}
+.notselected{
+    background-color: #FF4343;
+    padding: 6px 16px;
+    border-radius: 5px;
+}
+.selected{
+    background-color: #bd0303;
+    padding: 6px 16px;
+    border-radius: 5px;
+}

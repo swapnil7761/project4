@@ -1,0 +1,13 @@
+.foods{
+    background-image: url('./images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    min-height: calc(100vh - 191px);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}

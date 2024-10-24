@@ -1,0 +1,30 @@
+.card{
+    backdrop-filter: blur(20px);
+    max-width: 340px;
+    height: fit-content;
+    border: 2px solid rgba(171, 170, 170, 0.386);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+}
+.card img{
+    width: 100%;
+    min-width: 120px;
+    max-width: 200px;
+    border-radius: 50%;
+}
+.cardinfo{
+    color: white;
+    display: grid;
+    gap: 8px;
+}
+
+.price{
+    background-color: #FF4343;
+    justify-self: right;
+    align-self: center;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
